@@ -32,9 +32,9 @@ const skills = () => {
             <p>HTML5</p>
           </div>
         </div>
-        <marquee behavior="" direction="right" className="text__move">
+        {/* <marquee behavior="" direction="right" className="text__move">
           thank you for checking on me.
-        </marquee>
+        </marquee> */}
         <div className="social__media">
           <a href="https://wa.me/+2348164228535">
             whatsapp
@@ -50,7 +50,6 @@ const skills = () => {
           </a>
         </div>
       </div>
-      <div id="menu" className="fas fa-bars"></div>
     </>
   );
 };

@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import "./style.css";
-import { BiAlignJustify } from "react-icons/bi"
 import { FaRegCopyright } from "react-icons/fa";
 import { LiaTimesSolid } from "react-icons/lia";
 import { RiMenu5Fill } from "react-icons/ri";

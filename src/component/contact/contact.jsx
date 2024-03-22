@@ -1,6 +1,6 @@
-import { useState } from "react";
+import {React ,useState } from "react";
 import './contact.css'
-import React from "react";
+import { FaPaperPlane } from "react-icons/fa";
 function Contact() {
    const [formData, setFormData] = useState({
     name: "",
@@ -78,7 +78,7 @@ function Contact() {
             onChange={handleChange}
           ></textarea>
           <button type="submit" className="btn">
-            send <i className="fas fa-paper-plane"></i>
+            send <FaPaperPlane/>
           </button>
         </form>
       </div>
