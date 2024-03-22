@@ -1,0 +1,71 @@
+/****************** about section************* */
+#about {
+  min-height: 100vh;
+  padding-top: 4rem;
+  box-shadow: inset 0 0 3rem rgba(0, 0, 0, 0.5);
+}
+
+.my__info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+}
+
+.info__details {
+  flex: 1 1 40rem;
+  padding: 2rem 1rem;
+  padding-left: 6rem;
+}
+
+.info__details h3 {
+  font-size: 2rem;
+  color: var(--dark-blue);
+  color: #eee;
+  font-style: italic;
+  padding: 1rem 0;
+}
+
+.info__details h3 span {
+  color: var(--color-dark);
+  font-style: normal;
+  padding: 0 .5rem;
+}
+
+.info__details .bxl-github {
+  color: #171515;
+  font-size: 2.5rem;
+}
+
+.achievement {
+  flex: 1 1 30rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.achievement .box {
+  width: 15rem;
+  background: var(--dark-blue);
+  text-align: center;
+  padding: 2rem;
+  margin: 2rem;
+}
+
+.achievement .box span {
+  font-size: 4rem;
+  color: #e0e9f8;
+}
+
+.achievement .box h3 {
+  font-size: 2rem;
+  color: #fff;
+}
+
+@media screen and (max-width:400px) {
+
+  .achievement .box {
+    width: 100%;
+  }
+}
