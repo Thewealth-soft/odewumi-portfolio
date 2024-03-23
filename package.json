@@ -2,7 +2,7 @@
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Thewealth-soft.github.io/portfolio-with-react",
+  "homepage": "https://thewealth-soft.github.io/portfolio-with-react/",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
