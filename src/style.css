@@ -58,7 +58,9 @@ section {
 .btn:hover {
   background: var(--dark-blue);
 }
-
+.text-two{
+  color: #FFF;
+}
 .heading {
   text-align: center;
   margin: 0 6rem;

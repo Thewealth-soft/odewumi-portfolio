@@ -35,6 +35,7 @@ const skills = () => {
         {/* <marquee behavior="" direction="right" className="text__move">
           thank you for checking on me.
         </marquee> */}
+        <h1 className="text-two">Thank you for checking me out, Here is my social handles</h1>
         <div className="social__media">
           <a href="https://wa.me/+2348164228535">
             whatsapp
