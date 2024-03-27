@@ -32,7 +32,7 @@ const skills = () => {
             <p>HTML5</p>
           </div>
         </div>
-        <h1 className="text-two">Thank you for checking me out, Here is my social handles</h1>
+        <h1 className="text__two">Thank you for checking me out, Here is my social handles</h1>
         <div className="social__media">
           <a href="https://wa.me/+2348164228535">
             whatsapp

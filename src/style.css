@@ -41,13 +41,13 @@ section {
 }
 
 .btn {
-  padding: 0.7rem 3rem;
+  padding: 0.7rem 1rem;
   background: var(--color-bg);
   color: #fff;
   cursor: pointer;
   margin-top: 1rem;
   font-size: 2rem;
-  border-radius: 5rem;
+  border-radius: 1rem;
 }
 
 .btn i {
@@ -58,9 +58,11 @@ section {
 .btn:hover {
   background: var(--dark-blue);
 }
-.text-two{
+
+.text-two {
   color: #FFF;
 }
+
 .heading {
   text-align: center;
   margin: 0 6rem;
@@ -72,18 +74,22 @@ section {
 
 .social__media {
   font-size: 2rem;
-  padding-top: 2rem;
-  margin-left: 5rem;
+  padding-top: 1rem;
+  margin-left: 1rem;
+  display: flex;
+  word-spacing: 4rem;
 }
 
 .social__media a {
   color: #e0e9f8;
-  padding-right: 0.4rem;
+  padding: 3px;
+  border-radius: 5px;
 }
 
 .social__media .Siwhatsapp {
   color: #4fce5d;
 }
+
 
 .social__media .SiLinkedin {
   color: #0072b1;
@@ -91,6 +97,16 @@ section {
 
 .social__media .SiTwitter {
   color: #00acee;
+}
+
+.social__media .Siwhatsapp,
+.SiLinkedin,
+.SiTwitter {
+  margin-left: 0.4rem;
+}
+
+.social__media a:hover {
+  background: var(--dark-blue);
 }
 
 /****************header section***************/

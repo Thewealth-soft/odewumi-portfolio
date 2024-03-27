@@ -63,6 +63,29 @@
   color: #fff;
 }
 
+.about__media {
+  margin-left: 0.2rem;
+  display: flex;
+  flex-direction: column;
+  line-height: 3rem;
+}
+
+.about__media a {
+  padding: 6px;
+}
+
+.about__media a:hover {
+
+  border-radius: 1rem;
+  background: var(--dark-blue);
+}
+
+.about__media .Siwhatsapp,
+.SiLinkedin,
+.SiTwitter {
+  margin-left: 0.7rem;
+}
+
 @media screen and (max-width:400px) {
 
   .achievement .box {

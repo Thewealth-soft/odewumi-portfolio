@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState} from "react";
 import "./style.css";
 import { FaRegCopyright } from "react-icons/fa";
 import { LiaTimesSolid } from "react-icons/lia";
@@ -11,25 +11,28 @@ import Contact from "./component/contact/contact";
 
 function Portfolio() {
   const [showMenu, setShowMenu] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
 
   const toggleMenu = () => {
     setShowMenu(!showMenu);
   };
+  const closeMenu = () => {
+    setShowMenu(false);
+  };
+  // useEffect(() => {
+  //   const handleScroll = () => {
+  //     if (window.scrollY > 0) {
+  //       setScrolled(true);
+  //     } else {
+  //       setScrolled(false);
+  //     }
+  //   };
 
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 0) {
-        // Your scroll logic here
-        // For now, I'm just logging it
-        console.log("Scrolled!");
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
+  //   window.addEventListener("scroll", handleScroll);
+  //   return () => {
+  //     window.removeEventListener("scroll", handleScroll);
+  //   };
+  // }, []);
 
   const handleSmoothScroll = (e, id) => {
     e.preventDefault();
@@ -38,6 +41,7 @@ function Portfolio() {
       top: element.offsetTop,
       behavior: "smooth",
     });
+    closeMenu();
   };
 
   return (

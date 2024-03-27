@@ -1,6 +1,6 @@
 import React from "react";
 import './about.css'
-import {  SiLinkedin, SiTwitter, SiWhatsapp } from "react-icons/si";
+import {  SiGithub ,SiLinkedin, SiTwitter, SiWhatsapp } from "react-icons/si";
 function About() {
   return (
     <>
@@ -21,35 +21,45 @@ function About() {
           </h3>
           <a href="https://Github.com/Thewealth-soft">
             <button className="btn">
-              github <i className="bx bxl-github"></i>
+              github <SiGithub/>
             </button>
           </a>
-          <div className="social__media">
+          <div className="social__media about__media">
+            <ul>
+              <li>
             <a href="https://wa.me/+2348164228535">
               whatsapp
               <SiWhatsapp className="Siwhatsapp" />
             </a>
+              </li>
+              
+              <li>
             <a href="https://www.linkedin.com/in/odewumi-olajide-98b93157">
               linkedin
               <SiLinkedin className="SiLinkedin" />
-            </a>
+                </a>
+              </li>
+              <li>
             <a href="https://www.twitter.com/@thewealth_1">
               twitter
               <SiTwitter className="SiTwitter" />
-            </a>
+                </a>
+              
+              </li>
+          </ul>
           </div>
         </div>
         <div className="achievement">
           <div className="box">
-            <span>1+</span>
+            <span>2+</span>
             <h3>years of experience</h3>
           </div>
           <div className="box">
-            <span>4</span>
+            <span>7</span>
             <h3>project completed</h3>
           </div>
           <div className="box">
-            <span>23+</span>
+            <span>27+</span>
             <h3>happy clients</h3>
           </div>
         </div>

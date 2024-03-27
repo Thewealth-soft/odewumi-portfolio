@@ -67,11 +67,12 @@
   color: #e34c26;
   font-size: 3.5rem;
 }
-.text__move {
+
+.text__two {
   font-size: 1.5rem;
   border: 1px solid;
-  padding: 0.7rem;
-  margin-top: 2rem;
+  padding: 0.4rem;
+  margin-top: 1rem;
   text-align: center;
   color: #fff;
   background: var(--color-bg2);
