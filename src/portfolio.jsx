@@ -11,7 +11,7 @@ import Contact from "./component/contact/contact";
 
 function Portfolio() {
   const [showMenu, setShowMenu] = useState(false);
-  // const [scrolled, setScrolled] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
 
   const toggleMenu = () => {
     setShowMenu(!showMenu);
@@ -19,20 +19,20 @@ function Portfolio() {
   const closeMenu = () => {
     setShowMenu(false);
   };
-  // useEffect(() => {
-  //   const handleScroll = () => {
-  //     if (window.scrollY > 0) {
-  //       setScrolled(true);
-  //     } else {
-  //       setScrolled(false);
-  //     }
-  //   };
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        // setScrolled(true);
+      } else {
+        // setScrolled(false);
+      }
+    };
 
-  //   window.addEventListener("scroll", handleScroll);
-  //   return () => {
-  //     window.removeEventListener("scroll", handleScroll);
-  //   };
-  // }, []);
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   const handleSmoothScroll = (e, id) => {
     e.preventDefault();
