@@ -1,0 +1,107 @@
+.skills {
+  margin-top: 2rem;
+}
+
+.skills h3 {
+  font-size: 3rem;
+  color: #FFF;
+}
+
+.my__skills {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 2fr));
+  color: #fff;
+  margin-top: 1rem;
+}
+
+
+.my__skills .skill {
+  padding: 1rem;
+  animation: mySkill 1s 0s ease forwards;
+}
+
+.my__skills .two {
+  animation: mySkill 2s 1s ease forwards;
+}
+
+.my__skills .three {
+  animation: mySkill 3s 2s ease forwards;
+}
+
+.my__skills .four {
+  animation: mySkill 4s 3s ease forwards;
+}
+
+@keyframes mySkill {
+  to {
+    transform: rotateX(360deg);
+  }
+}
+
+.skill p {
+  font-size: 1.5rem;
+  margin-left: 1rem;
+}
+
+.skill .SiJavascript {
+  color: #f0db4f;
+  font-size: 3.5rem;
+  font-weight: 400;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-rendering: auto;
+}
+
+.skill .SiReact {
+  color: #7cc5d9;
+  font-size: 3.5rem;
+}
+
+.skill .SiCss3 {
+  color: #264de4;
+  font-size: 3.5rem;
+}
+
+.skill .SiHtml5 {
+  color: #e34c26;
+  font-size: 3.5rem;
+}
+
+.social__media-contact {
+  margin-top: 5rem;
+}
+
+.text_design {
+  font-size: 0.8rem;
+  border: 1px solid;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  text-align: center;
+  color: #fff;
+  background: var(--color-bg2);
+}
+
+.FaArrowDown {
+  font-size: 2rem;
+   animation: bounce 1s infinite;
+ }
+
+ @keyframes bounce {
+
+   0%,
+   20%,
+   50%,
+   80%,
+   100% {
+     transform: translateY(0);
+   }
+
+   40% {
+     transform: translateY(-20px);
+   }
+
+   60% {
+     transform: translateY(-10px);
+   }
+ }
