@@ -24,9 +24,7 @@ function Portfolio() {
       if (window.scrollY > 0) {
         // setScrolled(true);
         console.log(scrolled)
-      } else {
-        // setScrolled(false);
-      }
+      } 
     };
 
     window.addEventListener("scroll", handleScroll);
