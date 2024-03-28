@@ -1,5 +1,6 @@
 import React from "react";
 import "./skills.css";
+import { FaArrowDown } from "react-icons/fa";
 import {
   SiJavascript,
   SiReact,
@@ -32,20 +33,24 @@ const skills = () => {
             <p>HTML5</p>
           </div>
         </div>
-        <h1 className="text__two">Thank you for checking me out, Here is my social handles</h1>
-        <div className="social__media">
-          <a href="https://wa.me/+2348164228535">
-            whatsapp
-            <SiWhatsapp className="Siwhatsapp"/>
-          </a>
-          <a href="https://www.linkedin.com/in/odewumi-olajide-98b93157">
-            linkedin
-            <SiLinkedin className="SiLinkedin"/>
-          </a>
-          <a href="https://www.twitter.com/@thewealth_1">
-            twitter
-            <SiTwitter className="SiTwitter"/>
-          </a>
+        <div className="social__media-contact">
+          <div className="text_design">
+          <h1>
+            Thank you for checking me out. Here are my social handles.
+          </h1>
+            <FaArrowDown className="FaArrowDown" />
+          </div>
+          <div className="social__media">
+            <a href="https://wa.me/+2348164228535">
+              <SiWhatsapp className="Siwhatsapp" /> whatsapp
+            </a>
+            <a href="https://www.linkedin.com/in/odewumi-olajide-98b93157">
+              <SiLinkedin className="SiLinkedin" /> linkedin
+            </a>
+            <a href="https://www.twitter.com/@thewealth_1">
+              <SiTwitter className="SiTwitter" /> twitter
+            </a>
+          </div>
         </div>
       </div>
     </>

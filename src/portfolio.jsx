@@ -11,7 +11,7 @@ import Contact from "./component/contact/contact";
 
 function Portfolio() {
   const [showMenu, setShowMenu] = useState(false);
-  const [scrolled, setScrolled] = useState(false);
+  // const [scrolled, setScrolled] = useState(false);
 
   const toggleMenu = () => {
     setShowMenu(!showMenu);

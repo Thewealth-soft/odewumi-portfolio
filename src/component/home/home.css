@@ -1,4 +1,3 @@
-
 .home {
   min-height: 100vh;
   display: flex;
@@ -52,13 +51,14 @@
 
 @media screen and (max-width:1024px) {
   .home {
-    padding: 1rem 4rem;
+    padding: 1rem 3rem;
   }
 
- /* .home p {
-     line-height: 1; 
-  }*/
+  /* .home p {
+    line-height: 1;
+  } */
 }
+
 @media screen and (max-width:768px) {
   .home h3 {
     font-size: 1.5rem;

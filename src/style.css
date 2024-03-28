@@ -75,7 +75,7 @@ section {
 .social__media {
   font-size: 2rem;
   padding-top: 1rem;
-  margin-left: 1rem;
+  margin: 1.5rem 0 0 1rem;
   display: flex;
   word-spacing: 4rem;
 }
@@ -88,15 +88,18 @@ section {
 
 .social__media .Siwhatsapp {
   color: #4fce5d;
+  font-size: 3rem;
 }
 
 
 .social__media .SiLinkedin {
-  color: #0072b1;
+  color: #0073b1f9;
+  font-size: 3rem;
 }
 
 .social__media .SiTwitter {
   color: #00acee;
+  font-size: 3rem;
 }
 
 .social__media .Siwhatsapp,

@@ -1,6 +1,6 @@
 import React from "react";
-import './about.css'
-import {  SiGithub ,SiLinkedin, SiTwitter, SiWhatsapp } from "react-icons/si";
+import "./about.css";
+import { SiGithub, SiLinkedin, SiTwitter, SiWhatsapp } from "react-icons/si";
 function About() {
   return (
     <>
@@ -21,32 +21,29 @@ function About() {
           </h3>
           <a href="https://Github.com/Thewealth-soft">
             <button className="btn">
-              github <SiGithub/>
+             <SiGithub /> github 
             </button>
           </a>
           <div className="social__media about__media">
             <ul>
               <li>
-            <a href="https://wa.me/+2348164228535">
-              whatsapp
-              <SiWhatsapp className="Siwhatsapp" />
-            </a>
-              </li>
-              
-              <li>
-            <a href="https://www.linkedin.com/in/odewumi-olajide-98b93157">
-              linkedin
-              <SiLinkedin className="SiLinkedin" />
+                <a href="https://wa.me/+2348164228535">
+                  <SiWhatsapp className="Siwhatsapp" />
+                  whatsapp
                 </a>
               </li>
+
               <li>
-            <a href="https://www.twitter.com/@thewealth_1">
-              twitter
-              <SiTwitter className="SiTwitter" />
-                </a>
-              
+                <a href="https://www.linkedin.com/in/odewumi-olajide-98b93157"> <SiLinkedin className="SiLinkedin" />
+                  linkedin
+                 </a>
               </li>
-          </ul>
+              <li>
+                <a href="https://www.twitter.com/@thewealth_1"><SiTwitter className="SiTwitter" />
+                  twitter
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
         <div className="achievement">

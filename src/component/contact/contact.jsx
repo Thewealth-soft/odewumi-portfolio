@@ -1,6 +1,11 @@
 import {React ,useState } from "react";
 import './contact.css'
-import { FaPaperPlane } from "react-icons/fa";
+import {
+  FaPaperPlane,
+  FaEnvelope,
+  FaPhone,
+  FaMapMarkerAlt,
+} from "react-icons/fa";
 function Contact() {
    const [formData, setFormData] = useState({
     name: "",
@@ -37,20 +42,29 @@ function Contact() {
           <h3 className="title">CONTACT INFO.</h3>
           <div className="contact__info">
             <h3>
-              <i className="fas fa-envelope"></i> odewumiolajide@gmail.com
+              <FaEnvelope className="margin" />
+              <a href="mailto:odewumiolajide@gmail.com">
+                odewumiolajide@gmail.com
+              </a>
             </h3>
             <h3>
-              <i className="fas fa-phone"></i> +2348164228535
+              <FaPhone className="margin" />
+              <a href="tel:+2348164228535">+2348164228535</a>
             </h3>
             <h3>
-              <i className="fas fa-phone"></i> +2348037397664
+              <FaPhone className="margin" />
+              <a href="tel:+2348037397664">+2348037397664</a>
             </h3>
             <h3>
-              <i className="fas fa-map-marker-alt"></i> Dopemu, Agege Lagos.
+              <FaMapMarkerAlt className="margin"/> Dopemu, Agege Lagos.
             </h3>
           </div>
         </div>
-        <form action="https://formspree.io/f/xoqzqgge" method="POST" onChange={handleSubmit}>
+        <form
+          action="https://formspree.io/f/xoqzqgge"
+          method="POST"
+          onChange={handleSubmit}
+        >
           <input type="text" placeholder="name" className="box" />
           <input
             type="email"
@@ -78,7 +92,7 @@ function Contact() {
             onChange={handleChange}
           ></textarea>
           <button type="submit" className="btn">
-            send <FaPaperPlane/>
+            send <FaPaperPlane />
           </button>
         </form>
       </div>

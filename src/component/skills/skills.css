@@ -68,12 +68,40 @@
   font-size: 3.5rem;
 }
 
-.text__two {
-  font-size: 1.5rem;
+.social__media-contact {
+  margin-top: 5rem;
+}
+
+.text_design {
+  font-size: 0.8rem;
   border: 1px solid;
-  padding: 0.4rem;
+  padding: 0.5rem;
   margin-top: 1rem;
   text-align: center;
   color: #fff;
   background: var(--color-bg2);
 }
+
+.FaArrowDown {
+  font-size: 2rem;
+   animation: bounce 1s infinite;
+ }
+
+ @keyframes bounce {
+
+   0%,
+   20%,
+   50%,
+   80%,
+   100% {
+     transform: translateY(0);
+   }
+
+   40% {
+     transform: translateY(-20px);
+   }
+
+   60% {
+     transform: translateY(-10px);
+   }
+ }
