@@ -1,5 +1,5 @@
 import React, { useState,useEffect} from "react";
-import "./style.css";
+import "./index.css";
 import { FaRegCopyright } from "react-icons/fa";
 import { LiaTimesSolid } from "react-icons/lia";
 import { RiMenu5Fill } from "react-icons/ri";
